@@ -1,0 +1,6 @@
+{
+  "name": "Tetris Game",
+  "description": "A responsive and polished Tetris game with customizable speeds, scoring systems, local high-score saving, and mobile-friendly touch controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

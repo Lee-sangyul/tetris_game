@@ -1,6 +1,6 @@
 import React from 'react';
-import { TetrominoType } from '../types';
-import { SHAPES, TETROMINO_COLORS } from '../utils/tetrisLogic';
+import { TetrominoType } from '../types.ts';
+import { SHAPES, TETROMINO_COLORS } from '../utils/tetrisLogic.ts';
 
 interface PiecePreviewProps {
   type: TetrominoType | null;

@@ -5,16 +5,16 @@ import {
   Sliders, Award, Keyboard, Trophy, Star, ChevronRight, Zap
 } from 'lucide-react';
 
-import { TetrominoType, Grid, Point, Difficulty, HighScore } from './types';
+import { TetrominoType, Grid, Point, Difficulty, HighScore } from './types.ts';
 import { 
   createEmptyGrid, getRandomTetromino, checkCollision, rotateMatrix, 
   getSpeedInterval, calculateLineScore, COLS, ROWS, SHAPES 
-} from './utils/tetrisLogic';
-import { playSound } from './utils/audio';
-import { GameBoard } from './components/GameBoard';
-import { PiecePreview } from './components/PiecePreview';
-import { Leaderboard } from './components/Leaderboard';
-import { MobileControls } from './components/MobileControls';
+} from './utils/tetrisLogic.ts';
+import { playSound } from './utils/audio.ts';
+import { GameBoard } from './components/GameBoard.tsx';
+import { PiecePreview } from './components/PiecePreview.tsx';
+import { Leaderboard } from './components/Leaderboard.tsx';
+import { MobileControls } from './components/MobileControls.tsx';
 
 const HIGH_SCORES_KEY = 'tetris_high_scores_v1';
 

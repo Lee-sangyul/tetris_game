@@ -1,6 +1,6 @@
 import React from 'react';
-import { Grid, Point, TetrominoType } from '../types';
-import { TETROMINO_COLORS, ROWS, COLS } from '../utils/tetrisLogic';
+import { Grid, Point, TetrominoType } from '../types.ts';
+import { TETROMINO_COLORS, ROWS, COLS } from '../utils/tetrisLogic.ts';
 
 interface GameBoardProps {
   grid: Grid;

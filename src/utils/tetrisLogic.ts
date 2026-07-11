@@ -1,4 +1,4 @@
-import { TetrominoType, Grid, Point, CellValue, Difficulty } from '../types';
+import { TetrominoType, Grid, Point, CellValue, Difficulty } from '../types.ts';
 
 export const COLS = 10;
 export const ROWS = 20;

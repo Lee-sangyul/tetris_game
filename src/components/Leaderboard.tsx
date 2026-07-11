@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { HighScore } from '../types';
+import { HighScore } from '../types.ts';
 import { Trophy, Calendar, Zap, ListOrdered, Trash2 } from 'lucide-react';
 
 interface LeaderboardProps {
